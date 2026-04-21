@@ -36,7 +36,7 @@ string caesar_encrypt(const string &plaintext, int shift) {
 }
 
 string caesar_decrypt(const string &ciphertext, int shift) {
-    // TODO(student): Q3
+    // Q3: Giải mã bằng cách dịch ngược lại (-shift)
     return caesar_encrypt(ciphertext, -shift);
 }
 
