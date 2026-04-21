@@ -9,9 +9,12 @@
   → Output: `I LOVE YOU`
 
 ## Rail Fence Cipher
-- [ ] Encrypt `I LOVE YOU` với `2` rails
-- [ ] Encrypt `I LOVE YOU` với `4` rails
-- [ ] Decrypt một bản mã Rail Fence hợp lệ
+- [x] Encrypt `I LOVE YOU` với `2` rails
+    → Output: `IOEOLVYU`
+- [x] Encrypt `I LOVE YOU` với `4` rails
+  → Output: `IYLOEUOV`  
+- [x] Decrypt một bản mã Rail Fence hợp lệ
+  → Output: `ILOVEYOU`
 
 ## Validation / File input
 Validation / File input
@@ -20,3 +23,5 @@ Validation / File input
   → Output: `Invalid input`
 
 - [ ] Đọc thông điệp từ `data/input.txt`
+  Input file: `HELLO WORLD`  
+  → Output: `MJQQT BTWQI`
